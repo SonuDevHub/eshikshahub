@@ -1,0 +1,91 @@
+{
+  "v": 3,
+  "createdOnFiles": {"v": 1, "at": "2026-10-12T08:20:00Z"},
+  "title": "eShikshaHub Website Redesign",
+  "launch": {"view": "canvas"},
+  "pages": [],
+  "boards": {
+    "Main.dc.html": {"x": 0, "y": 0, "w": 1440, "h": 7986, "title": "Home · Desktop 1440"},
+    "Tablet.dc.html": {"x": 1520, "y": 0, "w": 768, "h": 9113, "title": "Home · Tablet 768"},
+    "Mobile.dc.html": {"x": 2368, "y": 0, "w": 375, "h": 10591, "title": "Home · Mobile 375"},
+    "MobileMenu.dc.html": {"x": 3203, "y": 0, "w": 375, "h": 812, "title": "Mobile · Menu open"},
+    "MegaMenu.dc.html": {"x": 3203, "y": 932, "w": 1440, "h": 620, "title": "Desktop · Courses mega-menu open"},
+
+    "AboutD.dc.html": {"x": 0, "y": 10991, "w": 1440, "h": 6350, "title": "About Us · Desktop 1440"},
+    "AboutT.dc.html": {"x": 1520, "y": 10991, "w": 768, "h": 7522, "title": "About Us · Tablet 768"},
+    "AboutM.dc.html": {"x": 2368, "y": 10991, "w": 375, "h": 9502, "title": "About Us · Mobile 375"},
+
+    "CoursesD.dc.html": {"x": 0, "y": 20893, "w": 1440, "h": 4595, "title": "All Courses · Desktop 1440"},
+    "CoursesT.dc.html": {"x": 1520, "y": 20893, "w": 768, "h": 5145, "title": "All Courses · Tablet 768"},
+    "CoursesM.dc.html": {"x": 2368, "y": 20893, "w": 375, "h": 5365, "title": "All Courses · Mobile 375"},
+
+    "MbaD.dc.html": {"x": 0, "y": 26658, "w": 1440, "h": 8835, "title": "Course Detail (MBA) · Desktop 1440"},
+    "MbaT.dc.html": {"x": 1520, "y": 26658, "w": 768, "h": 9445, "title": "Course Detail (MBA) · Tablet 768"},
+    "MbaM.dc.html": {"x": 2368, "y": 26658, "w": 375, "h": 10173, "title": "Course Detail (MBA) · Mobile 375"},
+
+    "PlacementD.dc.html": {"x": 0, "y": 37231, "w": 1440, "h": 5630, "title": "Partnership & Placement · Desktop 1440"},
+    "PlacementT.dc.html": {"x": 1520, "y": 37231, "w": 768, "h": 6365, "title": "Partnership & Placement · Tablet 768"},
+    "PlacementM.dc.html": {"x": 2368, "y": 37231, "w": 375, "h": 7433, "title": "Partnership & Placement · Mobile 375"},
+
+    "ReferD.dc.html": {"x": 0, "y": 45064, "w": 1440, "h": 5856, "title": "Refer & Earn · Desktop 1440"},
+    "ReferT.dc.html": {"x": 1520, "y": 45064, "w": 768, "h": 6706, "title": "Refer & Earn · Tablet 768"},
+    "ReferM.dc.html": {"x": 2368, "y": 45064, "w": 375, "h": 7527, "title": "Refer & Earn · Mobile 375"},
+
+    "ContactD.dc.html": {"x": 0, "y": 52991, "w": 1440, "h": 4003, "title": "Contact · Desktop 1440"},
+    "ContactT.dc.html": {"x": 1520, "y": 52991, "w": 768, "h": 3952, "title": "Contact · Tablet 768"},
+    "ContactM.dc.html": {"x": 2368, "y": 52991, "w": 375, "h": 4314, "title": "Contact · Mobile 375"},
+
+    "NavD.dc.html": {"x": 0, "y": 57705, "w": 1440, "h": 88, "title": "Locked · Nav desktop (scrolled state)"},
+    "CtaD.dc.html": {"x": 0, "y": 57833, "w": 1440, "h": 710, "title": "Locked · CTA desktop"},
+    "FootD.dc.html": {"x": 0, "y": 58583, "w": 1440, "h": 763, "title": "Locked · Footer desktop"},
+    "UniD.dc.html": {"x": 0, "y": 59386, "w": 1280, "h": 267, "title": "Locked · University grid desktop"},
+    "MarqD.dc.html": {"x": 0, "y": 59693, "w": 1440, "h": 196, "title": "Locked · Partner marquee desktop"},
+    "NavT.dc.html": {"x": 1520, "y": 57705, "w": 768, "h": 84, "title": "Locked · Nav tablet (scrolled state)"},
+    "CtaT.dc.html": {"x": 1520, "y": 57829, "w": 768, "h": 681, "title": "Locked · CTA tablet"},
+    "FootT.dc.html": {"x": 1520, "y": 58550, "w": 768, "h": 832, "title": "Locked · Footer tablet"},
+    "UniT.dc.html": {"x": 1520, "y": 59422, "w": 688, "h": 339, "title": "Locked · University grid tablet"},
+    "MarqT.dc.html": {"x": 1520, "y": 59801, "w": 768, "h": 86, "title": "Locked · Partner marquee tablet"},
+    "NavM.dc.html": {"x": 2368, "y": 57705, "w": 375, "h": 80, "title": "Locked · Nav mobile (scrolled state)"},
+    "CtaM.dc.html": {"x": 2368, "y": 57825, "w": 375, "h": 779, "title": "Locked · CTA mobile"},
+    "FootM.dc.html": {"x": 2368, "y": 58644, "w": 375, "h": 893, "title": "Locked · Footer mobile"},
+    "UniM.dc.html": {"x": 2368, "y": 59577, "w": 335, "h": 559, "title": "Locked · University grid mobile"},
+    "MarqM.dc.html": {"x": 2368, "y": 60176, "w": 375, "h": 138, "title": "Locked · Partner marquee mobile"},
+    "BarM.dc.html": {"x": 2368, "y": 60354, "w": 375, "h": 60, "title": "Locked · Mobile sticky bar"}
+  },
+  "order": [
+    "Main.dc.html", "Tablet.dc.html", "Mobile.dc.html", "MobileMenu.dc.html", "MegaMenu.dc.html",
+    "AboutD.dc.html", "AboutT.dc.html", "AboutM.dc.html",
+    "CoursesD.dc.html", "CoursesT.dc.html", "CoursesM.dc.html",
+    "MbaD.dc.html", "MbaT.dc.html", "MbaM.dc.html",
+    "PlacementD.dc.html", "PlacementT.dc.html", "PlacementM.dc.html",
+    "ReferD.dc.html", "ReferT.dc.html", "ReferM.dc.html",
+    "ContactD.dc.html", "ContactT.dc.html", "ContactM.dc.html",
+    "NavD.dc.html", "CtaD.dc.html", "FootD.dc.html", "UniD.dc.html", "MarqD.dc.html",
+    "NavT.dc.html", "CtaT.dc.html", "FootT.dc.html", "UniT.dc.html", "MarqT.dc.html",
+    "NavM.dc.html", "CtaM.dc.html", "FootM.dc.html", "UniM.dc.html", "MarqM.dc.html", "BarM.dc.html"
+  ],
+  "notes": {
+    "r1": {"x": 0, "y": -300, "text": "01 · Home", "kind": "title1", "maxW": 4640},
+    "r2": {"x": 0, "y": 10691, "text": "02 · About Us", "kind": "title1", "maxW": 3120},
+    "r3": {"x": 0, "y": 20593, "text": "03 · All Courses", "kind": "title1", "maxW": 3120},
+    "r4": {"x": 0, "y": 26358, "text": "04 · Course Detail (MBA template)", "kind": "title1", "maxW": 3120},
+    "r5": {"x": 0, "y": 36931, "text": "05 · Partnership & Placement", "kind": "title1", "maxW": 3120},
+    "r6": {"x": 0, "y": 44764, "text": "06 · Refer & Earn", "kind": "title1", "maxW": 3120},
+    "r7": {"x": 0, "y": 52691, "text": "07 · Contact", "kind": "title1", "maxW": 3120},
+    "r8": {"x": 0, "y": 57405, "text": "Locked components (reused on every page)", "kind": "title1", "maxW": 3120},
+    "m1": {"x": 2823, "y": 0, "w": 320, "fill": "teal", "text": "MOTION · Hero heading lines rise 16px (80ms stagger); photo holds a slow 1.05 scale. Sections fade up once at 20% (400ms ease-out); tiles stagger. Stat values count up; icons draw their strokes. Why-tiles: hover turns the tile navy, text off-white, icon tile orange with a white icon (250ms). Course images zoom 1.05; logos grey to colour on hover; marquee pauses on hover. Gallery hover: zoom + expand icon + Mono caption slides up. Footer: wordmark rises 40px, objects drift in parallax."},
+    "m1b": {"x": 2823, "y": 620, "w": 320, "fill": "gray", "text": "NAV · Wordmark is off-white over the hero and turns navy on scroll; the off-white panel stays fixed and floating. Filled buttons always carry a white Heebo 600 label; orange buttons turn fully #B8410A on hover and the arrow slides 4px. REDUCED MOTION · no marquee, no parallax, no count-up, instant reveals."},
+    "m1c": {"x": 2823, "y": 1000, "w": 320, "fill": "orange", "text": "CONTENT · Grey blocks are labelled photo slots for real stock photography of Indian students (caption = the shot to place). Review quotes are sample copy: swap in real Google reviews (20 words max). Footer objects are flat stand-ins for cut-out photos."},
+    "m2": {"x": 2823, "y": 10991, "w": 320, "fill": "teal", "text": "MOTION · Story stats count up. Highlight and Why tiles fade up in reading order, with the navy hover state. Recognition icons draw in; marquee pauses on hover."},
+    "m3": {"x": 2823, "y": 20893, "w": 320, "fill": "teal", "text": "MOTION · Filter bar sticks under the nav (white + hairline). Filtering cross-fades cards in 200ms. Card hover: orange top rule, lift, Apply Now turns #B8410A (shown on BBA). The dashed block shows the UG-filtered state."},
+    "m4": {"x": 2823, "y": 26658, "w": 320, "fill": "teal", "text": "MOTION · Key-fact values count up. Enquiry card sticks 88px from the top on desktop. Tab nav sticks and underlines the active section on scroll. Accordions open with a 240ms height ease; plus turns to minus. Mobile: sticky Apply Now bar."},
+    "m4b": {"x": 2823, "y": 27098, "w": 320, "fill": "orange", "text": "TEMPLATE · Swap course name, facts, specializations, semesters and careers per course. University cells are placeholders until the MBA university list is confirmed. FAQ answers: [content to be provided]."},
+    "m5": {"x": 2823, "y": 37231, "w": 320, "fill": "teal", "text": "MOTION · Stat values count up on the navy band. Timeline line draws 01 → 05 in sequence; each node fills orange as the line reaches it (vertical on mobile). Benefit tiles use the navy hover. Logos grey to colour on hover."},
+    "m6": {"x": 2823, "y": 45064, "w": 320, "fill": "teal", "text": "MOTION · Hero stat values count up on load (₹10,000 from 0). Steps 01–03 draw in sequence. Copy swaps to COPIED with a copy icon for 2s. Terms accordion closed by default (open state shown on mobile)."},
+    "m7": {"x": 2823, "y": 52991, "w": 320, "fill": "teal", "text": "MOTION · Contact blocks lift on hover. Field focus: orange border in 150ms. Error nudges 4px once (off for reduced motion). Success panel fades in with a headset icon. CTA here is buttons only, no form."},
+    "m8": {"x": 3880, "y": 57705, "w": 340, "fill": "gray", "text": "LOCKED · Every page imports these unchanged: floating nav, CTA (only heading and form / no-form vary), footer, university grid, partner marquee, mobile sticky bar. Edit once here and every page follows. Nav is shown in its scrolled state (navy wordmark)."}
+  },
+  "designSystems": [
+    {"title": "eShikshaHub", "namespace": "eshikshahub", "artifact": "https://claude.ai/code/artifact/eafea655-bae0-4717-841e-bd570efc75a7", "version": null, "copiedAt": "2026-10-12T08:20:00Z"}
+  ]
+}

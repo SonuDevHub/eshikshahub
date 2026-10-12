@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Nav · Tablet</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="/_blob/77f15a77af46717858bd60b8a1b89ba9">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&amp;family=Heebo:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div class="es" style="position: relative; width: 100%; height: 84px; font-family: Heebo, 'Segoe UI', sans-serif; color: #181D38">
+  <a href="Tablet.dc.html" aria-label="eShikshaHub home" style="position: absolute; left: 24px; top: 16px; height: 52px; display: flex; align-items: center; font: 800 23px Nunito, 'Trebuchet MS', sans-serif; letter-spacing: -0.4px; color: {{markColor}}">eShikshaHub</a>
+  <nav aria-label="Main" style="position: absolute; right: 16px; top: 16px; height: 52px; display: flex; align-items: stretch; background: rgba(244,243,239,.96); border-radius: 4px; overflow: hidden; padding-left: 4px">
+    <a class="nvl" href="CoursesT.dc.html" style="padding: 0 14px">Courses<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 16px; height: 16px"><path d="m6 9 6 6 6-6"></path></svg></a>
+    <a class="nvl" href="ContactT.dc.html" style="padding: 0 14px">Contact</a>
+    <a class="nvl" href="MobileMenu.dc.html" style="padding: 0 14px; border-left: 1px solid #E3E5EC">Menu<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px"><path d="M4 6h16M4 12h16M4 18h16"></path></svg></a>
+    <a href="ContactT.dc.html" class="mono" style="display: flex; align-items: center; padding: 0 18px; background: #181D38; color: #F4F3EF">Free Counselling</a>
+  </nav>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"tone":{"editor":"enum","options":["scrolled","hero"],"default":"scrolled"},"$preview":{"width":768,"height":84}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { markColor: this.props.tone === 'hero' ? '#F4F3EF' : '#181D38' };
+  }
+}
+</script>
+</body>
+</html>

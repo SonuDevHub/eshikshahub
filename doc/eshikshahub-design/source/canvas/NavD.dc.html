@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Nav · Desktop</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="/_blob/77f15a77af46717858bd60b8a1b89ba9">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&amp;family=Heebo:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div class="es" style="position: relative; width: 100%; height: 88px; font-family: Heebo, 'Segoe UI', sans-serif; color: #181D38">
+  <a href="Main.dc.html" aria-label="eShikshaHub home" style="position: absolute; left: 40px; top: 16px; height: 56px; display: flex; align-items: center; font: 800 26px Nunito, 'Trebuchet MS', sans-serif; letter-spacing: -0.5px; color: {{markColor}}">eShikshaHub</a>
+  <nav aria-label="Main" style="position: absolute; right: 16px; top: 16px; height: 56px; display: flex; align-items: stretch; background: rgba(244,243,239,.96); border-radius: 4px; overflow: hidden; padding-left: 8px">
+    <a class="nvl {{cCourses}}" href="CoursesD.dc.html" aria-haspopup="true" aria-expanded="{{expanded}}">Courses<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 16px; height: 16px; transform: {{chev}}"><path d="m6 9 6 6 6-6"></path></svg></a>
+    <a class="nvl {{cAbout}}" href="AboutD.dc.html">About</a>
+    <a class="nvl {{cPlacement}}" href="PlacementD.dc.html">Placement</a>
+    <a class="nvl {{cRefer}}" href="ReferD.dc.html">Refer &amp; Earn</a>
+    <a class="nvl" href="Main.dc.html">Gallery</a>
+    <a class="nvl {{cContact}}" href="ContactD.dc.html">Contact</a>
+    <a href="ContactD.dc.html" class="mono" style="display: flex; align-items: center; padding: 0 22px; margin-left: 8px; background: #181D38; color: #F4F3EF">Free Counselling</a>
+  </nav>
+  <sc-if value="{{open}}" hint-placeholder-val="{{ false }}">
+    <div style="position: absolute; right: 16px; top: 80px; width: 720px; background: #F4F3EF; border-radius: 4px; padding: 28px 28px 20px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 36px; z-index: 10">
+      <div>
+        <p class="lbl" style="margin-bottom: 10px">UG Programs</p>
+        <a href="CoursesD.dc.html" style="display: flex; align-items: center; justify-content: space-between; height: 48px; border-top: 1px solid #E3E5EC"><span style="display: flex; align-items: center; gap: 10px; font: 800 19px Nunito, 'Trebuchet MS', sans-serif; color: #181D38"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; color: #E85612"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>BCA</span><span class="mono" style="color: #52565B">3 Yrs</span></a>
+        <a href="CoursesD.dc.html" style="display: flex; align-items: center; justify-content: space-between; height: 48px; border-top: 1px solid #E3E5EC"><span style="display: flex; align-items: center; gap: 10px; font: 800 19px Nunito, 'Trebuchet MS', sans-serif; color: #181D38"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; color: #E85612"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>BBA</span><span class="mono" style="color: #52565B">3 Yrs</span></a>
+        <a href="CoursesD.dc.html" style="display: flex; align-items: center; justify-content: space-between; height: 48px; border-top: 1px solid #E3E5EC"><span style="display: flex; align-items: center; gap: 10px; font: 800 19px Nunito, 'Trebuchet MS', sans-serif; color: #181D38"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; color: #E85612"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>BCom</span><span class="mono" style="color: #52565B">3 Yrs</span></a>
+        <a href="CoursesD.dc.html" style="display: flex; align-items: center; justify-content: space-between; height: 48px; border-top: 1px solid #E3E5EC; border-bottom: 1px solid #E3E5EC"><span style="display: flex; align-items: center; gap: 10px; font: 800 19px Nunito, 'Trebuchet MS', sans-serif; color: #181D38"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; color: #E85612"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>BA</span><span class="mono" style="color: #52565B">3 Yrs</span></a>
+        <a class="tl" href="CoursesD.dc.html" style="margin-top: 12px">All Courses<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+      </div>
+      <div>
+        <p class="lbl" style="margin-bottom: 10px">PG Programs</p>
+        <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 24px">
+          <a href="MbaD.dc.html" style="display: flex; align-items: center; justify-content: space-between; height: 48px; border-top: 1px solid #E3E5EC"><span style="display: flex; align-items: center; gap: 10px; font: 800 19px Nunito, 'Trebuchet MS', sans-serif; color: #181D38"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; color: #E85612"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>MCA</span><span class="mono" style="color: #52565B">2 Yrs</span></a>
+          <a href="MbaD.dc.html" style="display: flex; align-items: center; justify-content: space-between; height: 48px; border-top: 1px solid #E3E5EC"><span style="display: flex; align-items: center; gap: 10px; font: 800 19px Nunito, 'Trebuchet MS', sans-serif; color: #181D38"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; color: #E85612"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>MBA</span><span class="mono" style="color: #52565B">2 Yrs</span></a>
+          <a href="MbaD.dc.html" style="display: flex; align-items: center; justify-content: space-between; height: 48px; border-top: 1px solid #E3E5EC"><span style="display: flex; align-items: center; gap: 10px; font: 800 19px Nunito, 'Trebuchet MS', sans-serif; color: #181D38"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; color: #E85612"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>MCom</span><span class="mono" style="color: #52565B">2 Yrs</span></a>
+          <a href="MbaD.dc.html" style="display: flex; align-items: center; justify-content: space-between; height: 48px; border-top: 1px solid #E3E5EC"><span style="display: flex; align-items: center; gap: 10px; font: 800 19px Nunito, 'Trebuchet MS', sans-serif; color: #181D38"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; color: #E85612"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>MSc</span><span class="mono" style="color: #52565B">2 Yrs</span></a>
+          <a href="MbaD.dc.html" style="display: flex; align-items: center; justify-content: space-between; height: 48px; border-top: 1px solid #E3E5EC; border-bottom: 1px solid #E3E5EC"><span style="display: flex; align-items: center; gap: 10px; font: 800 19px Nunito, 'Trebuchet MS', sans-serif; color: #181D38"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; color: #E85612"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>MA</span><span class="mono" style="color: #52565B">2 Yrs</span></a>
+          <a href="MbaD.dc.html" style="display: flex; align-items: center; justify-content: space-between; height: 48px; border-top: 1px solid #E3E5EC; border-bottom: 1px solid #E3E5EC"><span style="display: flex; align-items: center; gap: 10px; font: 800 19px Nunito, 'Trebuchet MS', sans-serif; color: #181D38"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; color: #E85612"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>MAJMC</span><span class="mono" style="color: #52565B">2 Yrs</span></a>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"tone":{"editor":"enum","options":["scrolled","hero"],"default":"scrolled"},"open":{"editor":"boolean","default":false},"active":{"editor":"enum","options":["none","courses","about","placement","refer","contact"],"default":"none"},"$preview":{"width":1440,"height":88}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const a = this.props.active ?? 'none';
+    const open = this.props.open === true || this.props.open === 'yes';
+    const on = (k) => (a === k || (k === 'courses' && open) ? 'on' : '');
+    return {
+      markColor: this.props.tone === 'hero' ? '#F4F3EF' : '#181D38',
+      open: open,
+      expanded: open ? 'true' : 'false',
+      chev: open ? 'rotate(180deg)' : 'none',
+      cCourses: on('courses'), cAbout: on('about'), cPlacement: on('placement'), cRefer: on('refer'), cContact: on('contact')
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /eshikshahubv2/
+
+    # Direct rewrites for friendly URLs
+    RewriteRule ^about/?$ about.php [L,QSA]
+    RewriteRule ^courses/?$ courses.php [L,QSA]
+    RewriteRule ^course-mba/?$ course-mba.php [L,QSA]
+    RewriteRule ^mba/?$ course-mba.php [L,QSA]
+    RewriteRule ^placement/?$ placement.php [L,QSA]
+    RewriteRule ^refer-and-earn/?$ refer-and-earn.php [L,QSA]
+    RewriteRule ^refer/?$ refer-and-earn.php [L,QSA]
+    RewriteRule ^contact/?$ contact.php [L,QSA]
+    RewriteRule ^gallery/?$ gallery.php [L,QSA]
+
+    # Check if a PHP file exists matching the requested filename
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^(.*)$ $1.php [L,QSA]
+</IfModule>
+
+# Caching & security headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+</IfModule>
